@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-dark {
+  background-color: #6236ff !important;
+}
+
+.dropdownSec {
+  padding: 15px 15px 15px 0;
+  background-color: #e6e6e6;
+}
+
+.topSec {
+  padding: 10px 0 10px 0;
+}
+
+.bubbles {
+  stroke-width: 1px;
+  stroke: black;
+  opacity: .8
+}
+
+.bubbles:hover {
+  stroke: black;
+}
+
+.tick line {
+  stroke: none;
+}
+
+.cardPop {
+  border: 2px solid #c4c4c4;
+}
+
+.cardBub {
+  border: none;
+}
+
+#worldPopulationCount {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .brand-centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .cardBubTitle {
+    text-align: center;
+  }
+
+  #populationGrowth {
+    display: none;
+  }
+
+  #worldPopulation {
+    text-align: center;
+  }
+
+  #worldPopulationCount {
+    text-align: left;
+  }
+
+  .worldPopulationTitle {
+    text-align: left;
+  }
+}
